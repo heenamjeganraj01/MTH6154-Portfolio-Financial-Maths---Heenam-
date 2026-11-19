@@ -49,13 +49,26 @@ Examples of compounding frequencies:
 - Monthly: $n=12$
 - Daily: $n=365$
 
+For semiannual compounding over one year: 
+
+$P(1) = P\left(1+\frac{r}{2}\right)^2$
+
 More frequent compounding, generally increases the accumulated balance if $r$ >0. 
 
 #### Effective Annual Interest Rate
 
 The nominal rate does not fully reflect the effect of compounding. 
-The **effective annual rate** measures the actual percentage return over one year.
+The **effective annual rate** measures the actual percentage return earned over one year.
+It is calculated as:
 
+$r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
+
+
+For interest compounded $n$ times per year: 
+
+$r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
+
+This allows us to compare investments with different compounding frequencies to be compared fairly.
 
 
 
