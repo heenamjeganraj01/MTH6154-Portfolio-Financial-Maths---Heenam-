@@ -11,10 +11,10 @@ An investment made today can grow over time.
 For example, £1,000 invested today can be worth more than £1,000 received next year. 
 However, inflation can reduce the purchasing power of money. 
 The **principal**,
-$`P`$, 
+$P$, 
 is the original amount invested or borrowed. 
 The **nominal interest rate**,
-$`r`$,
+$r$,
 is the stated annual interest rate. 
 
 #### Annual and Compound Interest
@@ -23,10 +23,33 @@ Compound interest means earning interest on both your original investment and pr
 With annual compounding, interest is added once each year. 
 After one year: 
 
-$P(1) = P(1+r)$
+$P(1) = P(1+r)^T$
 
+If interest is compounded $n$ times per year, the balance after $T$ years is: 
 
-If interest is compounded $n$ times per year
+$P(T) = P\left(1+\frac{r}{n}\right)^{nT}$
+where: 
+- $P$ = initial principal
+- $P(T)$ = accumulated balance
+- $r$ = nominal annual interest rate
+- $n$ = compounding periods per year
+- $T$ = investment duration in years
+
+Examples of compounding frequencies: 
+
+- Annually: $n=1$
+- Semiannually: $n=2$
+- Quarterly: $n=4$
+- Monthly: $n=12$
+- Daily: $n=365$
+
+More frequent compounding, generally increases the accumulated balance if $r$ >0. 
+
+#### Effective Annual Interest Rate
+
+The nominal rate does not fully reflect the effect of compounding. 
+The **effective annual rate** measures the actual percentage return over one year.
+
 
 
 
