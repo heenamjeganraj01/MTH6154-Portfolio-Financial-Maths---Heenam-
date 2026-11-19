@@ -4,6 +4,36 @@
 
 ## Summary
 
+### The Time value of money
+
+Money has a time value because it can earn interest over time. 
+An investment made today can grow over time. 
+For example, £1,000 invested today can be worth more than £1,000 received next year. 
+However, inflation can reduce the purchasing power of money. 
+The **principal**,
+$`P`$, 
+is the original amount invested or borrowed. 
+The **nominal interest rate**,
+$`r`$,
+is the stated annual interest rate. 
+
+#### Annual and Compound Interest
+
+Compound interest means earning interest on both your original investment and previously earned interest. 
+With annual compounding, interest is added once each year. 
+After one year: 
+
+$P(1) = P(1+r)$
+
+
+If interest is compounded $n$ times per year
+
+
+
+
+
+
+
 In your own words, the main ideas of the lesson. Short sentences are fine.
 
 Maths is written between dollar signs. For example `$A = P(1+i)^n$` shows
