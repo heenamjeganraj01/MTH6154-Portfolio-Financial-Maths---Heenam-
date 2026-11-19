@@ -20,14 +20,20 @@ is the stated annual interest rate.
 #### Annual and Compound Interest
 
 Compound interest means earning interest on both your original investment and previously earned interest. 
-With annual compounding, interest is added once each year. 
-After one year: 
+With annual compounding, interest is added once each year.
 
-$P(1) = P(1+r)^T$
+After $T$ years:
+
+$P(T) = P(1+r)^T$
+
+For example when T=1: 
+
+$P(1) = P(1+r)$
 
 If interest is compounded $n$ times per year, the balance after $T$ years is: 
 
 $P(T) = P\left(1+\frac{r}{n}\right)^{nT}$
+
 where: 
 - $P$ = initial principal
 - $P(T)$ = accumulated balance
