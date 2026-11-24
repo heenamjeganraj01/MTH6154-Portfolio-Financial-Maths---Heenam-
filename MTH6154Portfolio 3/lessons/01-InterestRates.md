@@ -13,13 +13,16 @@ However, inflation can also make the same £1,000 worth less in terms of what it
 
 The starting amount we invest or borrow is called the **principal**,
 $P$. 
+
+#### Nominal Annual Interest Rate
+
 The **nominal annual interest rate**,
 $r$,
 is the stated annual interest rate expressed as a decimal. 
 For example, 5%, is written as $r$ = 0.05. 
 
 If we borrow $P$ for one year, the interest charged is $r$$P$. The total amount we owe is therefore: 
-              $P$ + $r$$P$ = $P(1+r)$
+              $P$ + $rP$ = $P(1+r)$
 The same applies to a savings situation.
 
 #### Compound Interest
@@ -60,19 +63,55 @@ More frequent compounding, generally increases the accumulated balance if $r$ >0
 
 #### Effective Annual Interest Rate
 
-The **effective annual rate** measures the actual yearly return, including compounding.
-
-It is calculated as:
+The **effective annual rate $\(r_{\mathrm{eff}}\)** measures the actual yearly return, after accounting for how often interest is added:
 
 $r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
 This allows rates with different compounding frequencies to be compared.
 
 #### Continuous Compounding 
-With **continuous compounding**, interest is added increasingly frequently. In notation: $\(n\to\infty\)$
+With **continuous compounding**, interest is added increasingly frequently. In notation: $\n\to\infty\$: 
 
-$r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
+$\lim_{n\to\infty}P\left(1+\frac rn\right)^{nT}
+=Pe^{rT}$
 
-This allows us to compare investments with different compounding frequencies to be compared fairly.
+Therefore: 
+
+$P(T)=Pe^{rT}, \qquad r_{\mathrm{eff}}=e^r-1$
+Using the **effective annual rate**, we can also write $\(P(T)=P(1+r_{\mathrm{eff}})^T\)$. These formulas also apply to loans when no repayments are made. 
+
+#### Doubling Time
+
+**Doubling Time** tells us how long money takes to double under **continuous compounding**:
+
+Let $T$ represent the amount of years it takes an amount $P$ to double, we have 
+
+$\[2P=Pe^{rT}\quad\Rightarrow\quad\boxed{T=\frac{\ln2}{r}\approx\frac{0.693}{r}}\]$, by rearranging to solve $T$.
+
+The **Rule of 72** is a quick estimate: 
+$\[T\approx\frac{72}{R}\]$,
+where $R$ is the interest rate written as a percentage.
+
+### Variable Interest Rates
+#### Instantaneous Interest Rate
+Interest rates can change over time. The **instantaneous interest rate $r(t)$** tells us the rate at a particular moment. 
+
+Let **$r(t)$** be the interest rate at time **$t$**, **$P(t)$** the balance at that time, and **$P(0)$** the starting balance at **time zero**. 
+
+Over a very short time interval $h$, the interest rate is approximately constant. Using $\(e^{r(t)h}\approx1+r(t)h\)$ we can calculate the amount of interest that occurs between time $t$ and $t+h$: 
+
+$\[P(t+h)\approx P(t)e^{r(t)h}\approx P(t)(1+r(t)h)\]£
+This means that the balance is approximately the current balance plus the interest earned. As $h$ approaches zero:
+
+$\[\{P'(t)=P(t)r(t)}\]$
+
+
+
+
+
+
+So the balance changes approximately by: 
+$\[P(t+h)\approx P(t)(1+hr(t))\]$
+as 
 
 
 
@@ -80,14 +119,7 @@ This allows us to compare investments with different compounding frequencies to 
 
 
 
-In your own words, the main ideas of the lesson. Short sentences are fine.
 
-Maths is written between dollar signs. For example `$A = P(1+i)^n$` shows
-as $A = P(1+i)^n$, and a displayed formula uses double dollars:
-
-$$
-\left(1+\frac{i^{(m)}}{m}\right)^m = 1+i
-$$
 
 ## My example
 
