@@ -21,8 +21,8 @@ $r$,
 is the stated annual interest rate expressed as a decimal. 
 For example, 5%, is written as $r$ = 0.05. 
 
-If we borrow $P$ for one year, the interest charged is $r$$P$. The total amount we owe is therefore: 
-              $P$ + $rP$ = $P(1+r)$
+If we borrow $P$ for one year, the interest charged is $rP$. The total amount we owe is therefore: 
+$P$ + $rP$ = $P(1+r)$
 The same applies to a savings situation.
 
 #### Compound Interest
@@ -30,7 +30,7 @@ The same applies to a savings situation.
 Compound interest means earning interest on both your original money and previously earned interest. This means the balance can grow faster over time.
 
 When interest is added once a year, called **annual compounding**, the amount after $T$ years is:
-          $P(T)$ = $P(1+r)^T$
+$P(T)$ = $P(1+r)^T$
 
 For example when T=1: 
 
@@ -76,7 +76,7 @@ $\lim_{n\to\infty}P\left(1+\frac rn\right)^{nT}
 
 Therefore: 
 
-$P(T)=Pe^{rT}, \qquad r_{\mathrm{eff}}=e^r-1$
+$P(T)=Pe^{rT},\qquad r_{\mathrm{eff}}=e^r-1$
 Using the **effective annual rate**, we can also write $\(P(T)=P(1+r_{\mathrm{eff}})^T\)$. These formulas also apply to loans when no repayments are made. 
 
 #### Doubling Time
