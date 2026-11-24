@@ -4,33 +4,36 @@
 
 ## Summary
 
-### The Time value of money
+#### The Time value of money
 
-Money has a time value because it can earn interest over time. 
-An investment made today can grow over time. 
-For example, £1,000 invested today can be worth more than £1,000 received next year. 
-However, inflation can reduce the purchasing power of money. 
-The **principal**,
-$P$, 
-is the original amount invested or borrowed. 
-The **nominal interest rate**,
+Money has a different value depending on when we receive it.
+For example, £1,000 invested today can be worth more than £1,000 received next year because we can put it in a bank and earn interest.
+This means an investment made today can grow over time. 
+However, inflation can also make the same £1,000 worth less in terms of what it can buy.
+
+The starting amount we invest or borrow is called the **principal**,
+$P$. 
+The **nominal annual interest rate**,
 $r$,
-is the stated annual interest rate. 
+is the stated annual interest rate expressed as a decimal. 
+For example, 5%, is written as $r$ = 0.05. 
 
-#### Annual and Compound Interest
+If we borrow $P$ for one year, the interest charged is $r$$P$. The total amount we owe is therefore: 
+              $P$ + $r$$P$ = $P(1+r)$
+The same applies to a savings situation.
 
-Compound interest means earning interest on both your original investment and previously earned interest. 
-With annual compounding, interest is added once each year.
+#### Compound Interest
 
-After $T$ years:
+Compound interest means earning interest on both your original money and previously earned interest. This means the balance can grow faster over time.
 
-$P(T) = P(1+r)^T$
+When interest is added once a year, called **annual compounding**, the amount after $T$ years is:
+          $P(T)$ = $P(1+r)^T$
 
 For example when T=1: 
 
 $P(1) = P(1+r)$
 
-If interest is compounded $n$ times per year, the balance after $T$ years is: 
+However, banks may add interest more frequently. If interest is compounded $n$ times per year for $T$ years, where each period uses the rate $r/n$: 
 
 $P(T) = P\left(1+\frac{r}{n}\right)^{nT}$
 
@@ -49,22 +52,23 @@ Examples of compounding frequencies:
 - Monthly: $n=12$
 - Daily: $n=365$
 
-For semiannual compounding over one year: 
+Here, T is the number of years. For semiannual compounding (n=2):
 
-$P(1) = P\left(1+\frac{r}{2}\right)^2$
+$P(T) = P\left(1+\frac{r}{2}\right)^2T$
 
 More frequent compounding, generally increases the accumulated balance if $r$ >0. 
 
 #### Effective Annual Interest Rate
 
-The nominal rate does not fully reflect the effect of compounding. 
-The **effective annual rate** measures the actual percentage return earned over one year.
+The **effective annual rate** measures the actual yearly return, including compounding.
+
 It is calculated as:
 
 $r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
+This allows rates with different compounding frequencies to be compared.
 
-
-For interest compounded $n$ times per year: 
+#### Continuous Compounding 
+With **continuous compounding**, interest is added increasingly frequently. In notation: $\(n\to\infty\)$
 
 $r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
 
