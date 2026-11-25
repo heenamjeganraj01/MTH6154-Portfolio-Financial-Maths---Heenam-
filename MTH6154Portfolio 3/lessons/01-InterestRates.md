@@ -162,13 +162,81 @@ This shows that earning interest does not always mean gaining purchasing power, 
 
 
 
-
-
-
+a 
 ## My example
 
-A situation you made up (your own numbers, not the ones in the lecture
-notes), worked step by step.
+
+## My Example: Saving for a New Laptop
+
+### Question
+
+A university student wants to save money to buy a new laptop in the future. They deposit **£1,850** into a savings account offering a **nominal annual interest rate of 4.8%, compounded monthly**. The student leaves the money untouched for **3 years**.
+
+Calculate:
+
+1. The total balance after 3 years.
+2. The total interest earned.
+3. The effective annual interest rate.
+
+### Solution
+
+**Step 1: Identify the values**
+
+Let:
+
+- $P=£1,850$ be the initial deposit (principal).
+- $r=0.048$ be the nominal annual interest rate.
+- $n=12$ be the number of compounding periods per year.
+- $T=3$ be the investment duration in years.
+
+**Step 2: Calculate the balance after 3 years**
+
+Since interest is compounded monthly, we use the compound interest formula:
+
+**$P(T)=P\left(1+\frac{r}{n}\right)^{nT}$**
+
+Substituting the values we get:
+
+**$P(3)=1850\left(1+\frac{0.048}{12}\right)^{12\times3}$**
+
+$=1850(1.004)^{36}$
+
+$\boxed{P(3)=£2,135.92}$
+
+Therefore, the student will have **£2,135.92** after 3 years.
+
+**Step 3: Calculate the total interest earned**
+
+The total interest is the final balance minus the original deposit:
+
+$\text{Interest}=P(3)-P$
+
+$=2135.92-1850$
+
+$\boxed{\text{Interest}=£285.92}$
+
+**Step 4: Calculate the effective annual interest rate**
+
+The **effective annual rate** accounts for how often interest is added throughout the year:
+
+$r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
+
+Substituting the values:
+
+$r_{\mathrm{eff}}=\left(1+\frac{0.048}{12}\right)^{12}-1$
+
+$=(1.004)^{12}-1$
+
+$\approx0.0490702$
+
+$\boxed{r_{\mathrm{eff}}\approx4.91\%}$
+
+### Conclusion
+
+After 3 years, the student's original deposit of **£1,850 grows to £2,135.92**, earning **£285.92 in interest**. Although the **nominal annual interest rate is 4.8%**, monthly compounding increases the effective annual rate to approximately **4.91%**.
+
+This shows how compound interest helps savings grow over time, as interest is earned on both the original deposit and previously accumulated interest.
+
 
 ## Solved exercises
 
