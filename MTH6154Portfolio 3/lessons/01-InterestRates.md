@@ -234,11 +234,260 @@ After 3 years, the student's original deposit of **£1,850 grows to £2,135.92**
 This shows how compound interest helps savings grow over time, as interest is earned on both the original deposit and previously accumulated interest.
 
 
-## Solved exercises
+## Solved Exercises
 
-### Exercise 1.x (from Exercise Sheet 1)
+# Exercise 1: Compound Interest and Inflation
 
-Question, then your solution.
+### Question
+
+Suppose £700 is deposited into a bank account with a nominal annual interest rate of 3%.
+
+(a) Calculate the balance after 3 years when interest is compounded annually, monthly, semi-annually and continuously.
+
+(b) Find the effective annual interest rate for each case.
+
+(c) If inflation is 2% annually, calculate the inflation-adjusted interest rate for each case.
+
+(d) If interest is compounded semi-annually, calculate how long it takes the balance to reach £1,000.
+
+### Solution
+
+**Step 1: Identify the values**
+
+We are given:
+
+- Initial deposit: $P=£700$
+- Nominal annual interest rate: $r=0.03$
+- Investment duration: $T=3$ years
+- Annual inflation rate: $r_{\mathrm{inf}}=0.02$
+
+### (a) Calculate the balance after 3 years
+
+**(i) Compounded annually**
+
+For annual compounding, we use:
+
+$P(T)=P(1+r)^T$
+
+Substituting the values:
+
+$\begin{aligned}P(3)&=700(1+0.03)^3\\&=700(1.03)^3\\&\approx764.91\end{aligned}$
+
+Therefore, the final balance is **£764.91**.
+
+**(ii) Compounded monthly**
+
+For monthly compounding, $n=12$. We use:
+
+$P(T)=P\left(1+\frac{r}{n}\right)^{nT}$
+
+**Substituting the values**:
+
+$\begin{aligned}P(3)&=700\left(1+\frac{0.03}{12}\right)^{12\times3}\\&=700(1.0025)^{36}\\&\approx765.84\end{aligned}$
+
+Therefore, the final balance is **£765.84**.
+
+**(iii) Compounded semi-annually**
+
+For semi-annual compounding, interest is added twice per year, so $n=2$.
+
+$P(T)=P\left(1+\frac{r}{2}\right)^{2T}$
+
+Substituting the values:
+
+$\begin{aligned}P(3)&=700\left(1+\frac{0.03}{2}\right)^{2\times3}\\&=700(1.015)^6\\&\approx765.41\end{aligned}$
+
+Therefore, the final balance is **£765.41**.
+
+**(iv) Compounded continuously**
+
+For continuous compounding, we use:
+
+$P(T)=Pe^{rT}$
+
+Substituting the values:
+
+$\begin{aligned}P(3)&=700e^{0.03\times3}\\&=700e^{0.09}\\&\approx765.92\end{aligned}$
+
+Therefore, the final balance is **£765.92**.
+
+**Conclusion:** Continuous compounding produces the highest balance, while annual compounding produces the lowest. This is because more frequent compounding allows interest to accumulate more often.
+
+### (b) Calculate the effective annual interest rates
+
+The effective annual interest rate accounts for how frequently interest is compounded.
+
+For periodic compounding:
+
+$r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
+
+**(i) Annually**
+
+$\begin{aligned}r_{\mathrm{eff}}&=(1+0.03)^1-1\\&=0.03\\&=3.00\%\end{aligned}$
+
+**(ii) Monthly**
+
+$\begin{aligned}r_{\mathrm{eff}}&=\left(1+\frac{0.03}{12}\right)^{12}-1\\&=(1.0025)^{12}-1\\&\approx0.03041596\\&\approx3.04\%\end{aligned}$
+
+**(iii) Semi-annually**
+
+$\begin{aligned}r_{\mathrm{eff}}&=\left(1+\frac{0.03}{2}\right)^2-1\\&=(1.015)^2-1\\&=0.030225\\&\approx3.02\%\end{aligned}$
+
+**(iv) Continuously**
+
+For continuous compounding, we use:
+
+$r_{\mathrm{eff}}=e^r-1$
+
+Substituting the values:
+
+$\begin{aligned}r_{\mathrm{eff}}&=e^{0.03}-1\\&\approx0.03045453\\&\approx3.05\%\end{aligned}$
+
+**Conclusion:** The effective annual rate increases with compounding frequency, even though the nominal annual rate remains at 3%.
+
+### (c) Calculate the inflation-adjusted interest rates
+
+The real interest rate measures the growth in purchasing power after accounting for inflation.
+
+We use:
+
+$r_a=\frac{1+r_{\mathrm{eff}}}{1+r_{\mathrm{inf}}}-1$
+
+where $r_{\mathrm{inf}}=0.02$.
+
+**(i) Annually**
+
+$\begin{aligned}r_a&=\frac{1+0.03}{1+0.02}-1\\&=\frac{1.03}{1.02}-1\\&\approx0.009804\\&\approx0.98\%\end{aligned}$
+
+**(ii) Monthly**
+
+Using the unrounded effective annual rate:
+
+$\begin{aligned}r_a&=\frac{1+0.03041596}{1.02}-1\\&\approx0.010212\\&\approx1.02\%\end{aligned}$
+
+**(iii) Semi-annually**
+
+$\begin{aligned}r_a&=\frac{1+0.030225}{1.02}-1\\&\approx0.010025\\&\approx1.00\%\end{aligned}$
+
+**(iv) Continuously**
+
+$\begin{aligned}r_a&=\frac{1+0.03045453}{1.02}-1\\&\approx0.010250\\&\approx1.02\%\end{aligned}$
+
+**Conclusion:** Inflation reduces the real return in every case. Although the nominal annual rate is 3%, the actual increase in purchasing power is approximately 1%.
+
+### (d) Calculate the time required to reach £1,000
+
+Since interest is compounded semi-annually, we use:
+
+$P(T)=P\left(1+\frac{r}{2}\right)^{2T}$
+
+We want to find $T$ when $P(T)=1000$.
+
+**Step 1: Substitute the values**
+
+$1000=700\left(1+\frac{0.03}{2}\right)^{2T}$
+
+$1000=700(1.015)^{2T}$
+
+**Step 2: Divide both sides by 700**
+
+$\frac{1000}{700}=(1.015)^{2T}$
+
+**Step 3: Take natural logarithms**
+
+We use natural logarithms to bring the unknown $T$ down from the exponent.
+
+$\ln\left(\frac{1000}{700}\right)=2T\ln(1.015)$
+
+**Step 4: Rearrange to find $T$**
+
+$\begin{aligned}T&=\frac{\ln(1000/700)}{2\ln(1.015)}\\&\approx11.98\text{ years}\end{aligned}$
+
+Therefore, it takes approximately **11.98 years** for the balance to reach £1,000 under the compound-interest model.
+
+Since interest is credited every six months, the balance will first reach or exceed £1,000 after **12 years**.
+
+---
+
+# Exercise 3: Variable Interest Rates and the Yield Curve
+
+### Question
+
+Suppose $P$ is deposited into a bank account with interest continuously compounded at rate $r(t)$.
+
+Write down an expression, in terms of $r(t)$, for:
+
+(a) The yield curve $\bar r(t)$.
+
+(b) The bank balance at time $t$.
+
+### Solution
+
+**Step 1: Identify the notation**
+
+Let:
+
+- $P$ be the initial deposit at time zero.
+- $r(t)$ be the instantaneous interest rate at time $t$.
+- $\bar r(t)$ be the yield curve, representing the average instantaneous interest rate from time zero to time $t$.
+- $P(t)$ be the bank balance at time $t$.
+
+### (a) Find the yield curve
+
+The yield curve is the average instantaneous interest rate over the period from $0$ to $t$.
+
+We use:
+
+$\bar r(t)=\frac{1}{t}\int_0^t r(u)\ du$
+
+Here, the integral represents the accumulated interest rate over the period, and dividing by $t$ gives the average rate.
+
+Therefore, the yield curve is:
+
+$\bar r(t)=\frac{1}{t}\int_0^t r(u)\ du$
+
+for $t>0$.
+
+### (b) Find the bank balance at time $t$
+
+When interest is continuously compounded at a changing rate, the balance satisfies:
+
+$P'(t)=P(t)r(t)$
+
+**Step 1: Divide both sides by $P(t)$**
+
+$\frac{P'(t)}{P(t)}=r(t)$
+
+**Step 2: Integrate both sides**
+
+Integrating from time $0$ to time $t$:
+
+$\int_0^t\frac{P'(u)}{P(u)}\,du=\int_0^t r(u)\ du$
+
+This gives:
+
+$\ln P(t)-\ln P(0)=\int_0^t r(u)\ du$
+
+**Step 3: Rearrange using the exponential function**
+
+$\ln\left(\frac{P(t)}{P(0)}\right)=\int_0^t r(u)\ du$
+
+Taking the exponential of both sides:
+
+$P(t)=P(0)e^{\int_0^t r(u)\ du}$
+
+Since the initial deposit is $P(0)=P$:
+
+$P(t)=Pe^{\int_0^t r(u)\ du$
+
+We can also express the balance using the yield curve from part (a):
+
+$P(t)=Pe^{t\bar r(t)}$
+
+### Conclusion
+
+The yield curve gives the average instantaneous interest rate over time, while the bank balance formula calculates how the initial deposit grows when the interest rate changes continuously.
+
 
 ## Spreadsheet
 
