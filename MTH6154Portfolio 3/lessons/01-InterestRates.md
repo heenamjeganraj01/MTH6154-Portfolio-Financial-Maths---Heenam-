@@ -125,7 +125,7 @@ $P(t)=P(0)e^{rt}$
 
 The **yield curve**, written as $\bar r(t)$, gives the average **instantaneous rate** from time $0$ to time $t$: 
 
-$\bar r(t)=\frac{1}{t}\int_0^t r(u)\du$
+$\bar r(t)=\frac{1}{t}\int_0^t r(u)\,du$
 
 Using this average rate, the balance becomes: 
 
@@ -155,9 +155,7 @@ $r_a=\frac{r_{\mathrm{eff}}-r_{\mathrm{inf}}}{1+r_{\mathrm{inf}}}$
 
 When inflation is small, we can approximate it by:
 
-$
-r_a\approx r_{\mathrm{eff}}-r_{\mathrm{inf}}
-$
+$r_a\approx r_{\mathrm{eff}}-r_{\mathrm{inf}}$
 
 This shows that earning interest does not always mean gaining purchasing power, because inflation can reduce the real value of our savings over time.
 
