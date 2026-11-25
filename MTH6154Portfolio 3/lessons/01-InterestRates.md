@@ -189,7 +189,9 @@ Let:
 
 Since interest is compounded monthly, we use the compound interest formula:
 
-**$P(T)=P\left(1+\frac{r}{n}\right)^{nT}$**
+**$
+P(T)=P\left(1+\frac{r}{n}\right)^{nT}
+$**
 
 Substituting the values we get:
 
