@@ -30,7 +30,7 @@ $$
 a=(a_1,a_2,\ldots,a_n)
 $$
 
-Here, $a_i$ is the payment at the end of year $I$. To find the total present value, we discount each payment and add them together: 
+Here, $a_i$ is the payment at the end of year $i$. To find the total present value, we discount each payment and add them together: 
 
 $$
 PV(a)=\sum_{i=1}^{n}\frac{a_i}{(1+r)^i}
