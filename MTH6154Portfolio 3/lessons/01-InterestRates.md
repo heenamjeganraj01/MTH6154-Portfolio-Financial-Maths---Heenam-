@@ -193,13 +193,13 @@ $P(T)=P\left(1+\frac{r}{n}\right)^{nT}$
 
 Substituting the values we get:
 
-**$
+$
 \begin{aligned}
-P(3)&=1850\left(1+\frac{0.048}{12}\right)^{12\times3}\\
+P(3) &= 1850\left(1+\frac{0.048}{12}\right)^{12\times3}\\
 &=1850(1.004)^{36}\\
 &\approx2135.92
 \end{aligned}
-$**
+$
 
 Therefore, the student will have **£2,135.92** after 3 years.
 
