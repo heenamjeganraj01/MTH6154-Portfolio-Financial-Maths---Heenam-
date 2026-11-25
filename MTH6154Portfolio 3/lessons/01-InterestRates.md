@@ -109,7 +109,7 @@ $\[\{P'(t)=P(t)r(t)}\]$
 Here, $P'(t)$, means how quickly the balance changes over time. 
 To find the balance, we need to divide both sides of the equation by $P(t)$ and **integrate**, which adds up the growth from time $0$ to time $t$:
 
-$\frac{P'(t)}{P(t)}=r(t)\quad\Rightarrow\quad\ln P(t)-\ln P(0)=\int_0^t r(u)\, du$
+$\frac{P'(t)}{P(t)}=r(t)\quad\Rightarrow\quad\ln P(t)-\ln P(0)=\int_0^t r(u)\ du$
 
 The symbol $\int$ means integration, and $u$ represents time within the interval. We subtract $\ln P(0)$ because we are measuring growth from the **initial balance** to the balance at time $t$.
 
