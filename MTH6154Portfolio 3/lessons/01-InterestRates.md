@@ -115,7 +115,7 @@ The symbol $\int$ means integration, and $u$ represents time within the interval
 
 Removing the logarithm using the exponential function $e^x$ gives:
 
-$P(t)=P(0)e^{\int_0^t r(u)\,du}$
+$P(t)=P(0)e^{\int_0^t r(u)\ du}$
 
 This formula calculates the future balance when interest rate is not constant. If the rate stays constant, $r(t) = r$, it simplifies to: 
 
@@ -125,7 +125,7 @@ $P(t)=P(0)e^{rt}$
 
 The **yield curve**, written as $\bar r(t)$, gives the average **instantaneous rate** from time $0$ to time $t$: 
 
-$\bar r(t)=\frac{1}{t}\int_0^t r(u)\,du$
+$\bar r(t)=\frac{1}{t}\int_0^t r(u)\ du$
 
 Using this average rate, the balance becomes: 
 
