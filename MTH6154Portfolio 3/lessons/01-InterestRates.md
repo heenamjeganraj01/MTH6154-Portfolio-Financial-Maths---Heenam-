@@ -193,11 +193,13 @@ Since interest is compounded monthly, we use the compound interest formula:
 
 Substituting the values we get:
 
-**$P(3)=1850\left(1+\frac{0.048}{12}\right)^{12\times3}$**
-
-$=1850(1.004)^{36}$
-
-$\boxed{P(3)=£2,135.92}$
+**$
+\begin{aligned}
+P(3)&=1850\left(1+\frac{0.048}{12}\right)^{12\times3}\\
+&=1850(1.004)^{36}\\
+&\approx2135.92
+\end{aligned}
+$**
 
 Therefore, the student will have **£2,135.92** after 3 years.
 
@@ -205,27 +207,36 @@ Therefore, the student will have **£2,135.92** after 3 years.
 
 The total interest is the final balance minus the original deposit:
 
-$\text{Interest}=P(3)-P$
+$$
+\begin{aligned}
+\text{Interest}&=P(3)-P\\
+&\approx2135.92-1850\\
+&=285.92
+\end{aligned}
+$$
 
-$=2135.92-1850$
-
-$\boxed{\text{Interest}=£285.92}$
+Therefore, the total interest earned is **£285.92**.
 
 **Step 4: Calculate the effective annual interest rate**
 
 The **effective annual rate** accounts for how often interest is added throughout the year:
 
-$r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
+$$
+r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1
+$$
 
 Substituting the values:
 
-$r_{\mathrm{eff}}=\left(1+\frac{0.048}{12}\right)^{12}-1$
+$$
+\begin{aligned}
+r_{\mathrm{eff}}&=\left(1+\frac{0.048}{12}\right)^{12}-1\\
+&=(1.004)^{12}-1\\
+&\approx0.0490702\\
+&\approx4.91\%
+\end{aligned}
+$$
 
-$=(1.004)^{12}-1$
-
-$\approx0.0490702$
-
-$r_{\mathrm{eff}} \approx 4.91\%}$
+Therefore, the effective annual interest rate is approximately **4.91%**.
 
 ### Conclusion
 
@@ -500,7 +511,7 @@ The yield curve represents the average instantaneous interest rate over the peri
 **Step 1: Integrate the interest rate**
 
 $$
-\int_0^t r(s)\,ds
+\int_0^t r(s)\ ds
 $$
 
 **Step 2: Divide by the time interval**
@@ -508,13 +519,13 @@ $$
 Dividing by $t$ gives the average interest rate:
 
 $$
-\bar r(t)=\frac{1}{t}\int_0^t r(s)\,ds
+\bar r(t)=\frac{1}{t}\int_0^t r(s)\ ds
 $$
 
 Therefore, the yield curve is:
 
 $$
-\bar r(t)=\frac{1}{t}\int_0^t r(s)\,ds
+\bar r(t)=\frac{1}{t}\int_0^t r(s)\ ds
 $$
 
 **(b) The bank balance at time $t$.**
@@ -534,7 +545,7 @@ $$
 **Step 2: Integrate both sides from $0$ to $t$**
 
 $$
-\ln P(t)-\ln P(0)=\int_0^t r(s)\,ds
+\ln P(t)-\ln P(0)=\int_0^t r(s)\ ds
 $$
 
 **Step 3: Rearrange using the exponential function**
@@ -542,7 +553,7 @@ $$
 Since $P(0)=P$:
 
 $$
-P(t)=P\exp\left(\int_0^t r(s)\,ds\right)
+P(t)=P \exp\left(\int_0^t r(s)\,ds\right)
 $$
 
 **Step 4: Substitute the yield curve**
@@ -550,14 +561,14 @@ $$
 From part (a):
 
 $$
-t\bar r(t)=\int_0^t r(s)\,ds
+t\bar r(t)=\int_0^t r(s)\ ds
 $$
 
 Therefore:
 
 $$
 P(t)=Pe^{t\bar r(t)}
-=P\exp\left(\int_0^t r(s)\,ds\right)
+=P \exp\left(\int_0^t r(s)\,ds\right)
 $$
 
 
