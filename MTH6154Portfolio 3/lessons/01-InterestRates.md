@@ -113,15 +113,27 @@ $\frac{P'(t)}{P(t)}=r(t)\quad\Rightarrow\quad\ln P(t)-\ln P(0)=\int_0^t r(u)\,du
 
 The symbol $\int$ means integration, and $u$ represents time within the interval. We subtract $\ln P(0)$ because we are measuring growth from the **initial balance** to the balance at time $t$.
 
+Removing the logarithm using the exponential function $e^x$ gives:
 
+$P(t)=P(0)e^{\int_0^t r(u)\,du}$
 
+This formula calculates the future balance when interest rate is not constant. If the rate stays constant, $r(t) = r$, it simplifies to: 
 
+$P(t)=P(0)e^{rt}$
 
+#### Yield Curve 
 
-So the balance changes approximately by: 
-$\[P(t+h)\approx P(t)(1+hr(t))\]$
-as 
+The **yield curve**, written as $\bar r(t)$, gives the average **instantaneous rate** from time $0$ to time $t$: 
 
+$\bar r(t)=\frac{1}{t}\int_0^t r(u)\,du$
+
+Using this average rate, the balance becomes: 
+
+$P(t)=P(0)e^{t\bar r(t)}$
+
+The effective **annual interest rate** for an investment lasting $T$ years is: 
+
+$r_{\mathrm{eff}}(T)=e^{\bar r(T)}-1$
 
 
 
