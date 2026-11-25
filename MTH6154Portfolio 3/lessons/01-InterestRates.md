@@ -125,7 +125,7 @@ $P(t)=P(0)e^{rt}$
 
 The **yield curve**, written as $\bar r(t)$, gives the average **instantaneous rate** from time $0$ to time $t$: 
 
-$\bar r(t)=\frac{1}{t}\int_0^t r(u)\,du$
+$\bar r(t)=\frac{1}{t}\int_0^t r(u)\du$
 
 Using this average rate, the balance becomes: 
 
@@ -135,7 +135,31 @@ The effective **annual interest rate** for an investment lasting $T$ years is:
 
 $r_{\mathrm{eff}}(T)=e^{\bar r(T)}-1$
 
+### Inflation 
 
+**Inflation** means prices increase over time, which reduces the purchasing power of money. 
+
+Let $r_{\mathrm{inf}}$ be the annual interest rate, and  $r_a$ the ** real interest rate**, which measures how much our purchasing power increases. 
+
+If the effective annual interest rate is $r$, the balance after one year is $P(1+r)$, but its purchasing power in today's money is: 
+
+$\frac{P(1+r)}{1+r_{\mathrm{inf}}}$
+
+Therefore, the real interest rate is: 
+
+$r_a=\frac{1+r}{1+r_{\mathrm{inf}}}-1=\frac{r-r_{\mathrm{inf}}}{1+r_{\mathrm{inf}}}$
+
+If interest is compounded more than once a year, use the effective annual rate $r_{\mathrm{eff}}$ instead:
+
+$r_a=\frac{r_{\mathrm{eff}}-r_{\mathrm{inf}}}{1+r_{\mathrm{inf}}}$
+
+When inflation is small, we can approximate it by:
+
+$
+r_a\approx r_{\mathrm{eff}}-r_{\mathrm{inf}}
+$
+
+This shows that earning interest does not always mean gaining purchasing power, because inflation can reduce the real value of our savings over time.
 
 
 
