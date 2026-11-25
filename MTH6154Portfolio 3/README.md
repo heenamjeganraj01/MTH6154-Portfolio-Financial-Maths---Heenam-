@@ -20,5 +20,4 @@ module MTH6154 Financial Mathematics I.
 
 ## AI use
 
-Write here what, if anything, you used AI tools for (e.g. "asked Copilot why
-my `NORM.S.DIST` formula gave an error"). Write "None" otherwise.
+I wanted to align my calculations and AI told me to use $$ instead of just $ to allow calculations to form on a separate line
