@@ -64,14 +64,14 @@ More frequent compounding, generally increases the accumulated balance if $r$ >0
 
 #### Effective Annual Interest Rate
 
-The **effective annual rate **$r_{\mathrm{eff}}$** measures the actual yearly return, after accounting for how often interest is added:
+The **effective annual rate**, **$r_{\mathrm{eff}}$**, measures the actual yearly return, after accounting for how often interest is added:
 
 $r_{\mathrm{eff}}=\left(1+\frac{r}{n}\right)^n-1$
 
 This allows rates with different compounding frequencies to be compared.
 
 #### Continuous Compounding 
-With **continuous compounding**, interest is added increasingly frequently. In notation: $\n\to\infty\$: 
+With **continuous compounding**, interest is added increasingly frequently. In notation: $n\to\infty\$: 
 
 $\lim_{n\to\infty}P\left(1+\frac rn\right)^{nT}
 =Pe^{rT}$
