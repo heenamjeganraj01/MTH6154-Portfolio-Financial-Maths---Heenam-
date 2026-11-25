@@ -7,7 +7,7 @@
 #### The Time value of money
 
 Money has a different value depending on when we receive it.
-For example, £5,000 invested today can be worth more than £15,000 received next year because we can put it in a bank and earn interest.
+For example, £5,000 received today can be worth more than £15,000 received next year because we can put it in a bank and earn interest.
 This means an investment made today can grow over time. 
 However, inflation can also make the same £1,000 worth less in terms of what it can buy.
 
@@ -107,7 +107,8 @@ This means that the balance is approximately the current balance plus the intere
 $\[\{P'(t)=P(t)r(t)}\]$
 
 Here, $P'(t)$, means how quickly the balance changes over time. 
-To find the balance, we need to divide both sides of the equation by $P(t)$ and **integrate**, which adds up the growth from time $0$ to time $t$:
+To find the balance, we need to divide both sides of $\[\{P'(t)=P(t)r(t)}\]$
+by $P(t)$ and **integrate** from time $0$ to time $t$ to calculate the total growth.
 
 $\frac{P'(t)}{P(t)}=r(t)\quad\Rightarrow\quad\ln P(t)-\ln P(0)=\int_0^t r(u)\ du$
 
@@ -139,7 +140,7 @@ $r_{\mathrm{eff}}(T)=e^{\bar r(T)}-1$
 
 **Inflation** means prices increase over time, which reduces the purchasing power of money. 
 
-Let $r_{\mathrm{inf}}$ be the annual interest rate, and  $r_a$ the ** real interest rate**, which measures how much our purchasing power increases. 
+Let $r_{\mathrm{inf}}$ be the annual inflation rate, and  $r_a$ the ** real interest rate**, which measures how much our purchasing power increases. 
 
 If the effective annual interest rate is $r$, the balance after one year is $P(1+r)$, but its purchasing power in today's money is: 
 
