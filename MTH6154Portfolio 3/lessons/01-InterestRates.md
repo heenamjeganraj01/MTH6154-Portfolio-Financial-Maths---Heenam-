@@ -101,7 +101,7 @@ Let **$r(t)$** be the interest rate at time **$t$**, **$P(t)$** the balance at t
 
 Over a very short time interval $h$, the interest rate is approximately constant. Using $\(e^{r(t)h}\approx1+r(t)h\)$ we can calculate the amount of interest that occurs between time $t$ and $t+h$: 
 
-$\[P(t+h)\approx P(t)e^{r(t)h}\approx P(t)(1+r(t)h)\]£
+$\[P(t+h)\approx P(t)e^{r(t)h}\approx P(t)(1+r(t)h)\]$
 This means that the balance is approximately the current balance plus the interest earned. As $h$ approaches zero:
 
 $\[\{P'(t)=P(t)r(t)}\]$
