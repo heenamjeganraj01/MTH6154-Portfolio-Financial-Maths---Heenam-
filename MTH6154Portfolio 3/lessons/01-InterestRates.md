@@ -22,8 +22,7 @@ is the stated annual interest rate expressed as a decimal.
 For example, 5%, is written as $r$ = 0.05. 
 
 If we borrow $P$ for one year, the interest charged is $rP$. The total amount we owe is therefore: 
-$P$ + $rP$ = $P(1+r)$
-The same applies to a savings situation.
+$P$ + $rP$ = $P(1+r)$. The same applies to a savings situation.
 
 #### Compound Interest
 
