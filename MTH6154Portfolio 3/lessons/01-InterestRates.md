@@ -7,7 +7,7 @@
 #### The Time value of money
 
 Money has a different value depending on when we receive it.
-For example, £1,000 invested today can be worth more than £1,000 received next year because we can put it in a bank and earn interest.
+For example, £5,000 invested today can be worth more than £15,000 received next year because we can put it in a bank and earn interest.
 This means an investment made today can grow over time. 
 However, inflation can also make the same £1,000 worth less in terms of what it can buy.
 
