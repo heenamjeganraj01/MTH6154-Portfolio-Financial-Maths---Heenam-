@@ -225,7 +225,7 @@ $=(1.004)^{12}-1$
 
 $\approx0.0490702$
 
-$\boxed{r_{\mathrm{eff}}\approx4.91\%}$
+$r_{\mathrm{eff}} \approx4.91\%}$
 
 ### Conclusion
 
