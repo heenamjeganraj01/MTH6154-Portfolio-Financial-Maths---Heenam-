@@ -58,7 +58,7 @@ Examples of compounding frequencies:
 Here, T is the number of years. 
 
 For semiannual compounding (n=2):
-$P(T) = P\left(1+\frac{r}{2}\right)^2T$
+$P(T) = P\left(1+\frac{r}{2}\right)^{2T}$
 
 More frequent compounding, generally increases the accumulated balance if $r$ >0. 
 
