@@ -250,7 +250,14 @@ $P(T)=P(1+r)^T$
 
 Substituting $P=700$, $r=0.03$ and $T=3$:
 
-$\begin{aligned}P(3)&=700(1+0.03)^3\\&=700(1.03)^3\\&=764.91\\&\approx765\end{aligned}$
+$
+\begin{aligned}
+P(3)&=700(1+0.03)^3\\
+&=700(1.03)^3\\
+&=764.91\\
+&\approx765
+\end{aligned}
+$
 
 Therefore, the balance is approximately **£765**.
 
