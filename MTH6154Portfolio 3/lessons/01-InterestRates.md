@@ -162,10 +162,6 @@ This shows that earning interest does not always mean gaining purchasing power, 
 
 
 
-a 
-## My example
-
-
 ## My Example: Saving for a New Laptop
 
 ### Question
