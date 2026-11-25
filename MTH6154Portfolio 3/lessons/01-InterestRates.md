@@ -553,7 +553,7 @@ $$
 Since $P(0)=P$:
 
 $$
-P(t)=P \exp\left(\int_0^t r(s)\,ds\right)
+P(t)=P \exp\left(\int_0^t r(s)\ ds\right)
 $$
 
 **Step 4: Substitute the yield curve**
