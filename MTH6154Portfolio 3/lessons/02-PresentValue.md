@@ -8,7 +8,7 @@
 
 #### Present Value
 
-**Present value** tells us how much money received in the future is worth today. Money received today can earn interest, so future payments must be discounted to compare their values fairly. 
+**Present value** tells us how much money received in the future is worth today. Money received today can earn interest, so future payments must be **discounted** to compare their values fairly. 
 
 Let $V$ be the future payment, $r$ the effective annual interest rate and $t$ the number of years. 
 
@@ -24,7 +24,7 @@ $$
 
 #### Cash-Flow Streams
 
-A cash-flow stream is a series of payments received or paid at different times: 
+A cash-flow stream is a series of payments received or paid at different times, therefore dependent on its transaction time and amount. Most of the times, the transaction time will occur at regular intervals however, not always. 
 
 $$ 
 a=(a_1,a_2,\ldots,a_n)
@@ -108,4 +108,77 @@ $$
 
 For example, someone saving for retirement can use this equation to find out how much they need to deposit each month to cover future withdrawals. 
 
-We can also compare 
+We can also compare the accumulated values at the same future rate instead of comparing present values. 
+
+### Rates of Return
+
+#### Profit and Total Rate of Return 
+
+The profit from an investment is the final value received (with interest) minus the original amount invested. 
+
+Let $P$ be the initial investment and $P_{\mathrm{final}}$ its final value. 
+
+$$
+\text{Profit}=P_{\mathrm{final}}-P
+$$
+
+The total rate of return, $R$, measures the profit as a proportion of the original investment: 
+
+$$
+R=\frac{P_{\mathrm{final}}-P}{P}
+$$
+
+#### Annualised Rate of Return 
+
+The ** annualised rate of return ** gives a simple average return per year. 
+If an investment lasts $T$ years:
+
+$$
+R_{\mathrm{ann}}=\frac{R}{T}
+$$
+
+However, this formula does not account for compound growth. A more accurate comparison uses the ••equivalent effective annual interest rate**, $r$: 
+
+$$
+P(1+r)^T=P_{\mathrm{final}}
+$$
+
+Rearranging this gives: 
+
+$$
+r=\left(\frac{P_{\mathrm{final}}}{P}\right)^{1/T}-1
+$$
+
+This tells us the constant annual compound rate needed to grow the original investment to its final value. 
+
+#### Internal Rate of Return (IRR)
+
+The **internal rate of return**, known abbreviated as,**IRR**, is used when an investment produces several payments over time. 
+
+It is the interest rate that makes the present value of all future payments equal to the initial investment. 
+
+Let $P$ be the initial investment, $a_i$ is the payment received at time $t_i$, and $r$ is the IRR. 
+
+$$
+P=\sum_{i=1}^{n}\frac{a_i}{(1+r)^{t_i}}
+$$
+
+We can rearrange this equation to set it equal to zero:
+
+$$
+f(r)=-P+\sum_{i=1}^{n}a_i(1+r)^{-t_i}
+$$
+
+The IRR is the value of $r$ that satisfies this equation above: 
+
+$$
+f(r)=0
+$$
+
+For positive future payments, this equation has a unique solution with $r>-1$.
+
+The **IRR** is extremely useful as it helps people judge whether an investment is worthwhile or not. If its IRR is higher than the available market interest rate, the investment may offer a better rate of return. If the IRR is lower, investing elsewhere may be a better option. 
+
+
+
+
