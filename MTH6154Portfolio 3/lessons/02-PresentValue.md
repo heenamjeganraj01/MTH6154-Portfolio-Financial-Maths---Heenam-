@@ -236,7 +236,7 @@ Below is a cash-flow timeline to visualise payments being received and being pai
 
 - **Downward arrow** = Money being paid out
 - **Upward arrow** = Money being received
-- **t = 0** means the student spend £3,600 today.
+- **t = 0** means the student spends £3,600 today.
 
 ### Solution 
 
