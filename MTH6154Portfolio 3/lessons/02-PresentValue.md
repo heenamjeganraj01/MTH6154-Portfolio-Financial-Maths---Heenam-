@@ -22,6 +22,26 @@ $$
 PV(V)=V\left(1+\frac{r}{n}\right)^{-nt}
 $$
 
+#### Net Present Value (NPV)
+
+Net Present Value (NPV) tells us whether an investment is worth making by comparing the **present value** of money received with money paid out. 
+
+On a cash-flow timeline, upward arrows represent money received, while downward means money gone out. 
+
+For an initial investment $P$ and future payments $a_i$ received at the end of year $i$ is: 
+
+$$
+NPV=-P+\sum_{i=1}^{n}\frac{a_i}{(1+r)^i}
+$$
+
+Here, $r$ is the **effective annual rate** and $n$ is the number of years: 
+
+- **NPV > 0** The investment is financially worthwhile at the chosen interest rate
+- **NPV<0** The investment is not financially worthwhile at the chosen interest rate
+- **NPV = 0** The investment does not gain profit and earns enough to cover its cost
+
+A higher interest rate reduces the PV of future payments, which lowers NPV.
+
 #### Cash-Flow Streams
 
 A cash-flow stream is a series of payments received or paid at different times, therefore dependent on its transaction time and amount. Most of the times, the transaction time will occur at regular intervals however, not always. 
@@ -84,7 +104,7 @@ $$
 D(T)=e^{-rT}
 $$
 
-For a changing instantaneous interest rate, covered in lesson 1, using the **yield curve** $\bar r(T)$ also from Week 1:
+For a changing instantaneous interest rate, covered in **lesson 1**, using the **yield curve** $\bar r(T)$ also from **lesson 1** :
 
 $$
 D(T)=e^{-T\bar r(T)}
@@ -149,7 +169,8 @@ $$
 r=\left(\frac{P_{\mathrm{final}}}{P}\right)^{1/T}-1
 $$
 
-This tells us the constant annual compound rate needed to grow the original investment to its final value. 
+This tells us the yearly compound interest rate needed for an investment to reach its final value. 
+
 
 #### Internal Rate of Return (IRR)
 
@@ -163,7 +184,7 @@ $$
 P=\sum_{i=1}^{n}\frac{a_i}{(1+r)^{t_i}}
 $$
 
-We can rearrange this equation to set it equal to zero:
+We can rearrange this equation to set it equal to zero, which gives:
 
 $$
 f(r)=-P+\sum_{i=1}^{n}a_i(1+r)^{-t_i}
@@ -178,6 +199,8 @@ $$
 For positive future payments, this equation has a unique solution with $r>-1$.
 
 The **IRR** is extremely useful as it helps people judge whether an investment is worthwhile or not. If its IRR is higher than the available market interest rate, the investment may offer a better rate of return. If the IRR is lower, investing elsewhere may be a better option. 
+
+
 
 
 
