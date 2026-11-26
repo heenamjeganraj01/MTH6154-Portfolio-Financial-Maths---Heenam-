@@ -201,7 +201,39 @@ For positive future payments, this equation has a unique solution with $r>-1$.
 The **IRR** is extremely useful as it helps people judge whether an investment is worthwhile or not. If its IRR is higher than the available market interest rate, the investment may offer a better rate of return. If the IRR is lower, investing elsewhere may be a better option. 
 
 
+## My Example: Saving for a New Laptop
 
+### Question
 
+A university student wants to start a small bicycle-repair business. They spend **£3,600 today** on equipment and expect to receive: 
 
+- **£1,200** at the end of Year 1
+- **£1,600** at the end of Year 2
+- **£1,900** at the end of Year 3
+
+The **effective annual interest rate** is **5.5%**.
+
+Calculate:
+
+1. The **present value** of the future payments (PV)
+2. The **Discount factors** and **Net Present Value (NPV)**
+3. The **Internal Rate of Return (IRR)**
+4. The **Total, Simple Annualised and Effective Annual Return** on an alternative investment.
+5. The **Present Value** of a **Perpetuity**
+6. The deposit needed today to fund the future payments
+
+Below is a cash-flow timeline to visualise payments being received and being paid out:
+
+'''text
+                   
+                   ↑          ↑          ↑
+                £1,200     £1,600     £1,900
+                   |          |          |
+    ---------------|----------|----------|----> Time
+         |         |          |          |
+       Year 0    Year 1     Year 2     Year 3
+         |
+         ↓
+       £3,600
+'''
 
