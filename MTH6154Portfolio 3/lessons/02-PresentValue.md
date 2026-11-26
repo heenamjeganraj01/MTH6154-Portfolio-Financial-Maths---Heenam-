@@ -222,18 +222,204 @@ Calculate:
 5. The **Present Value** of a **Perpetuity**
 6. The deposit needed today to fund the future payments
 
-Below is a cash-flow timeline to visualise payments being received and being paid out:
-
-'''text
-                   
+Below is a cash-flow timeline to visualise payments being received and being paid out for the question:
+      
                    ↑          ↑          ↑
                 £1,200     £1,600     £1,900
                    |          |          |
     ---------------|----------|----------|----> Time
          |         |          |          |
-       Year 0    Year 1     Year 2     Year 3
+        t = 0    t = 1      t = 2       t = 3
          |
          ↓
        £3,600
-'''
+
+- **Downward arrow** = Money being paid out
+- **Upward arrow** = Money being received
+- **t = 0** means the student spend £3,600 today.
+
+### Solution 
+
+**Step 1: Assign the values to a variable**
+
+Let: 
+- $P = 3600$ which is the **initial investment**
+- $r = 0.055$ which is the **effective annual interest rate**
+- $T = 3$ be the length of the investment in years (3 years)
+- $a_1 = 1200$, $a_2 = 1600$ and $a_3 = 1900$ be the future payments.
+
+**Step 2: Answer Q1 - Calculate the Present Value (PV)**
+
+Present Value tells us how much future money is worth today
+
+Use the formula: 
+
+$$
+PV(a_i)=\frac{a_i}{(1+r)^i}
+$$
+
+Here, $a_i$ is the payment received in year $i$. 
+
+**Year 1**
+
+$$
+PV_1=\frac{1200}{1.055}
+$$
+
+$$
+PV_1\approx £1,137.4
+$$
+
+**Year 2**
+
+$$
+PV_2=\frac{1600}{(1.055)^2}
+$$
+
+$$
+PV_2\approx £1,437.5
+$$
+
+**Year 3**
+
+$$
+PV_3=\frac{1900}{(1.055)^3}
+$$
+
+$$
+PV_3\approx £1,618.1
+$$
+
+After calculating for each year, we add the three PV. We use unrounded values:
+
+$$
+PV=PV_1+PV_2+PV_3
+$$
+
+**Final Answer**:
+
+$$
+\boxed{PV\approx £4,193.0}
+$$
+
+Therefore, the future payments are worth **£4,193 today**
+
+**Step 3: Answer Q2 - Calculate the Discount Factors and NPV**
+
+A **discount factor (DF)** tells us how much £1 received in the future is worth today. 
+
+Use the formula:
+
+$$
+D(t)=\frac{1}{(1+r)^t}
+$$
+
+Therefore:
+
+Year 1 (DF) :
+
+$$
+D(1)=\frac{1}{1.055}\approx0.9479
+$$
+
+Year 2 (DF):
+
+$$
+D(2)=\frac{1}{(1.055)^2}\approx0.8985
+$$
+
+Year 3 (DF):
+
+$$
+D(3)=\frac{1}{(1.055)^3}\approx0.8516
+$$
+
+Using the discount factors:
+
+$$
+PV=1200D(1)+1600D(2)+1900D(3)
+$$
+
+$$
+PV\approx £4,193.0
+$$
+
+The **Net Present Value (NPV)** is the present value of the future payments - the initial investment. 
+
+$$
+NPV=-P+\sum_{i=1}^{3}\frac{a_i}{(1+r)^i}
+$$
+
+We then substitute the values given to us from the question:
+
+$$
+NPV=-3600+\frac{1200}{1.055}+\frac{1600}{(1.055)^2}+\frac{1900}{(1.055)^3}
+$$
+
+I used a round-up function to find an approximate value of the final answer: 
+
+$$
+NPV\approx4193.0-3600
+$$
+
+**Final answer**
+
+$$
+\boxed{NPV\approx £593.0}
+$$
+
+As the NPV is > 0 (discussed in the notes above), the investment is financially worth going ahead with at the 5.5% market interest rate.
+
+**Step 4: Solve Q3 - Calculate the **Internal Rate of Return (IRR)**
+
+The IRR is the interest rate that makes NPV = 0. 
+
+Use the formula:
+
+$$
+0=-P+\sum_{i=1}^{3}\frac{a_i}{(1+r)^i}
+$$
+
+We then substitute the values given in the question:
+
+$$
+0=-3600+\frac{1200}{1+r}+\frac{1600}{(1+r)^2}+\frac{1900}{(1+r)^3}
+$$
+
+We then solve this numerically to get:
+
+$$
+\boxed{IRR\approx13.5\%}
+$$
+
+As 13.5% > 5.5%, the business offers a higher return than the market interest rate.
+
+**Step 5: Solve Q4 - Calculate the **Rates of Return**
+
+Now, suppose the student considers another investment which is: buying equipment for **£3,600**, and selling it for **£4,700 after 3 years (t = 3)**, with no other income. 
+
+**(a) Total rate of return**
+
+Use the formula: 
+
+$$
+R=\frac{P_{\mathrm{final}}-P}{P}
+$$
+
+We then substitute the values given to use from the question: 
+
+$$
+R=\frac{4700-3600}{3600}
+$$
+
+$$
+=\boxed{R\approx30.6\%}
+$$
+
+
+
+
+
+
+
 
