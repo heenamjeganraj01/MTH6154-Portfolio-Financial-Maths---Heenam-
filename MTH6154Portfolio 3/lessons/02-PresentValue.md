@@ -394,7 +394,7 @@ $$
 
 As 13.5% > 5.5%, the business offers a higher return than the market interest rate.
 
-**Step 5: Solve Q4 - Calculate the **Rates of Return**
+**Step 5: Solve Q4 - Calculate the Rates of Return**
 
 Now, suppose the student considers another investment which is: buying equipment for **£3,600**, and selling it for **£4,700 after 3 years (t = 3)**, with no other income. 
 
@@ -413,7 +413,7 @@ R=\frac{4700-3600}{3600}
 $$
 
 $$
-=\boxed{R\approx30.6\%}
+\boxed{R\approx30.6\%}
 $$
 
 
