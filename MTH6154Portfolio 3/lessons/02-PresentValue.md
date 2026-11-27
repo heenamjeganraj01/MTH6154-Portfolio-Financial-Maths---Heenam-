@@ -435,7 +435,7 @@ $$
 To get a final answer of:
 
 $$
-\boxed{R_{\mathrm{ann}}\approx10.2\%}
+R_{\mathrm{ann}}\approx 10.2\%
 $$
 
 
