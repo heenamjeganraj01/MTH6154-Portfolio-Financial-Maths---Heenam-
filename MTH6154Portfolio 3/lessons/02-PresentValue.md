@@ -396,7 +396,7 @@ As 13.5% > 5.5%, the business offers a higher return than the market interest ra
 
 **Step 5: Solve Q4 - Calculate the Rates of Return**
 
-Now, suppose the student considers another investment which is: buying equipment for **£3,600**, and selling it for **£4,700 after 3 years (t = 3)**, with no other income. 
+Now, in theory suppose the student considers another investment which is: buying equipment for **£3,600**, and selling it for **£4,700 after 3 years (t = 3)**, with no other income. 
 
 **(a) Total rate of return**
 
@@ -416,10 +416,102 @@ $$
 \boxed{R\approx30.6\%}
 $$
 
+**(b) Simple annualised rate of return**
+
+We divide the total return by the number of years:
+
+$$
+R_{\mathrm{ann}}=\frac{R}{T}
+$$
+
+$$
+R_{\mathrm{ann}}=\frac{0.305556}{3}
+$$
+
+To get a final answer of:
+
+$$
+\boxed{R_{\mathrm{ann}}\approx10.2\%}
+$$
+
+**(c) Equivalent effective annual rate**
+
+This is a calculation carried out to show the yearly interest rate needed to grow the investment to its final amount. 
+
+$$
+r=\left(\frac{P_{\mathrm{final}}}{P}\right)^{1/T}-1
+$$
+
+We then substitute the key values:
+
+$$
+r=\left(\frac{4700}{3600}\right)^{1/3}-1
+$$
+
+To get a final answer of: 
+
+$$
+\boxed{r\approx9.3\%}
+$$
+
+The effective annual rate is **9.3%**. 
+
+**Step 6: Solve Q5 - Calculate the present value of a perpetuity** 
+
+Now, suppose another scenario where the student is offered a separate investment paying **£330 every year forever**, starting at the end of Year 1. 
+
+A perpetuity pays the same amount forever - it doesn't change. 
+
+We use the formula:
+
+$$
+PV=\frac{a}{r}
+$$
+
+We then substitute the key values:
+
+$$
+PV=\frac{330}{0.055}
+$$
+
+To get a final answer of: 
+
+$$
+\boxed{PV=£6,000.0}
+$$
+
+Therefore, the perpetuity is worth **£6,000 today**, given the interest rate is at 5.5%. 
 
 
+**Step 7: Solve Q6 - Calculate the deposit needed to fund future payments**
 
+The student wants to deposit enough money today to find payments of the following: 
+- **£1,200, £1,600 and £1,900**
+over the next three years.
 
+We use the formula:
+
+$$
+PV(\text{deposits})=PV(\text{withdrawals})
+$$
+
+Let $X$ be the amount deposited today.
+
+$$
+X=\frac{1200}{1.055}+\frac{1600}{(1.055)^2}+\frac{1900}{(1.055)^3}
+$$
+
+$$
+\boxed{X\approx £4,193.0}
+$$
+
+Therefore, the student has to deposit **£4,193 today** to fund (pay-back) the future payments. 
+
+### Conclusion 
+
+The bicycle-repair business has a positive **NPV of £593** and an **IRR of 13.5%**, making it financially worth at the 5.5% market interest rate.
+
+The other calculations shown above are used to value future payments by determining how much money needs to be deposited in today's time. 
 
 
 
