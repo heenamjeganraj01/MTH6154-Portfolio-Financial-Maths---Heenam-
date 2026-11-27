@@ -415,8 +415,9 @@ $$
 Final answer: 
 
 $$
-\boxed{R\approx30.6\%}
+R \approx 0.306
 $$
+
 
 
 **(b) Simple annualised rate of return**
