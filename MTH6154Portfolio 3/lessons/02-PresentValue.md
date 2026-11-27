@@ -370,7 +370,7 @@ $$
 
 As the NPV is > 0 (discussed in the notes above), the investment is financially worth going ahead with at the 5.5% market interest rate.
 
-**Step 4: Solve Q3 - Calculate the **Internal Rate of Return (IRR)**
+**Step 4: Solve Q3 - Calculate the Internal Rate of Return (IRR)**
 
 The IRR is the interest rate that makes NPV = 0. 
 
