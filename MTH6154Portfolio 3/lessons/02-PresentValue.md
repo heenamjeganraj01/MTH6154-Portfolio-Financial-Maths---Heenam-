@@ -419,7 +419,6 @@ $$
 $$
 
 
-
 **(b) Simple annualised rate of return**
 
 We divide the total return by the number of years:
