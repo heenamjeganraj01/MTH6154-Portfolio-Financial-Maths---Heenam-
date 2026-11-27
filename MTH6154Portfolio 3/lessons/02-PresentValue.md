@@ -412,9 +412,13 @@ $$
 R=\frac{4700-3600}{3600}
 $$
 
+Final answer: 
+
 $$
-\boxed{R\approx30.6\%}
+\mathrm{IRR}\approx 30.6%\
 $$
+
+
 
 **(b) Simple annualised rate of return**
 
@@ -431,8 +435,9 @@ $$
 To get a final answer of:
 
 $$
-\boxed{R_{\mathrm{ann}}\approx10.2\%}
+\mathrm{IRR}\approx 10.2%\
 $$
+
 
 **(c) Equivalent effective annual rate**
 
