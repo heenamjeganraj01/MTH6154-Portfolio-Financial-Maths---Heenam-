@@ -389,7 +389,7 @@ $$
 We then solve this numerically to get:
 
 $$
-\mathrm{IRR}\approx 13.5\%
+\mathrm{IRR}\approx 13.5%\
 $$
 
 As 13.5% > 5.5%, the business offers a higher return than the market interest rate.
