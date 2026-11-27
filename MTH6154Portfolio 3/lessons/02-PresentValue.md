@@ -415,7 +415,7 @@ $$
 Final answer: 
 
 $$
-\mathrm{IRR}\approx 30.6%\
+\boxed{R\approx30.6\%}
 $$
 
 
@@ -435,7 +435,7 @@ $$
 To get a final answer of:
 
 $$
-\mathrm{IRR}\approx 10.2%\
+\boxed{R_{\mathrm{ann}}\approx10.2\%}
 $$
 
 
