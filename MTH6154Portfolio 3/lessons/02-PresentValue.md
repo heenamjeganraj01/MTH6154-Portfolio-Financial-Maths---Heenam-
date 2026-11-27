@@ -456,7 +456,7 @@ $$
 To get a final answer of: 
 
 $$
-\boxed{r\approx9.3\%}
+\boxed{r\approx 9.3\%}
 $$
 
 The effective annual rate is **9.3%**. 
